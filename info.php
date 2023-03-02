@@ -10,7 +10,7 @@ Template Name: Info
 <div class="inner_wrap">
     
   <div class="pt-28 pb-72"> 
-   <p class=" h2 max-w-4xl">M.G. Tucker is a photographer in New Orleans, LA. Searching for the warmth of real moments, he engages in slow and conversational photography that considers abiding narratives and reveals plain beauty.</p>
+   <p class=" h2 max-w-4xl"><?php the_field('intro'); ?></p>
 
  
 
@@ -18,7 +18,7 @@ Template Name: Info
 <div class="flex justify-between">
     <div class="w-1/3">
 
-    <div class="label">Følg mig</div><!-- /.label -->
+   
 
       <div class="block border-t border-b w-full pt-8 pb-8 pl-4">
             <p class="label font-bold mb-4">Følg min fotokunst</p><!-- / -->
