@@ -18,7 +18,6 @@ Template Name: Info
 <div class="flex justify-between">
     <div class="w-1/3">
 
-   
 
       <div class="block border-t border-b w-full pt-8 pb-8 pl-4">
             <p class="label font-bold mb-4">Følg min fotokunst</p><!-- / -->
