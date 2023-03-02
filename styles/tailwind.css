@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom code */
+
+@layer base {
+  h1,
+  .h1 {
+    @apply font-display !leading-tight text-5xl md:text-7xl font-light pb-8;
+  }
+
+  h2,
+  .h2 {
+    @apply font-display text-2xl xl:text-3xl;
+  }
+
+  h3,
+  .h3 {
+    @apply text-xl xl:text-2xl;
+  }
+
+  h4,
+  .h4 {
+    @apply font-body text-xl;
+  }
+
+  h5,
+  .h5 {
+    @apply font-body text-xl uppercase tracking-widest;
+  }
+
+  p,
+  .p {
+    @apply font-body text-base;
+  }
+
+  .label {
+    @apply font-display text-base tracking-widest uppercase;
+  }
+
+  .label_numbers {
+    @apply font-display text-xl tracking-widest uppercase;
+  }
+}
+
+@layer components {
+  .main_nav li {
+    @apply ml-4;
+  }
+
+  .shop_image img {
+    @apply w-full;
+  }
+
+  .main_nav a {
+    @apply font-display text-base tracking-widest uppercase;
+  }
+
+  .inner_wrap {
+    @apply px-4 sm:px-16 md:px-28;
+  }
+}
