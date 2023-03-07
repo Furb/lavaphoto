@@ -768,6 +768,21 @@ video {
 .pl-2 {
   padding-left: 0.5rem;
 }
+.pb-48 {
+  padding-bottom: 12rem;
+}
+.pb-20 {
+  padding-bottom: 5rem;
+}
+.pb-28 {
+  padding-bottom: 7rem;
+}
+.pt-20 {
+  padding-top: 5rem;
+}
+.pt-16 {
+  padding-top: 4rem;
+}
 .text-right {
   text-align: right;
 }
