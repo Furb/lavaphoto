@@ -12,8 +12,8 @@ Template Name: Shop
 
 
 
-  <div class="h-[56vh] pt-28 pb-72"> 
-   <h1 class="max-w-4xl"><?php the_field('shop_overskrift'); ?></h1>
+  <div class="h-[56vh] pt-28 pb-72 max-w-4xl"> 
+   <h1><?php the_field('shop_overskrift'); ?></h1>
 <h4><?php the_field('underforklaring'); ?></h4>
   </div>
 
