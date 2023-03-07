@@ -7,7 +7,7 @@
 @layer base {
   h1,
   .h1 {
-    @apply font-display !leading-tight text-5xl md:text-7xl font-light pb-8;
+    @apply font-display !leading-tight text-4xl md:text-7xl font-light pb-8;
   }
 
   h2,

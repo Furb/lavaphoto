@@ -13,7 +13,7 @@ else :
 	get_header();
 endif;?>
 
-  <div class="darkHero lg:h-[75vh] bg-dark text-white inner_wrap pt-28 pb-72"> 
+  <div class="darkHero bg-dark text-white inner_wrap pt-8 pb-16 | lg:min-h-[75vh] lg:pt-28 lg:pb-72"> 
     <h1 class="max-w-4xl"><?php the_field('intro_section_text'); ?></h1>
 <h4><?php the_field('intro_sub_tekst'); ?></h4>
 

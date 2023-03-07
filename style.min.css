@@ -378,7 +378,8 @@ video {
   .h1 {
   padding-bottom: 2rem;
   font-family: 'Cormorant', serif;
-  font-size: 3rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
   font-weight: 300;
   line-height: 1.25 !important;
 }
@@ -740,14 +741,17 @@ video {
 .pt-48 {
   padding-top: 12rem;
 }
+.pt-8 {
+  padding-top: 2rem;
+}
+.pb-16 {
+  padding-bottom: 4rem;
+}
 .pt-28 {
   padding-top: 7rem;
 }
 .pb-72 {
   padding-bottom: 18rem;
-}
-.pt-8 {
-  padding-top: 2rem;
 }
 .pb-8 {
   padding-bottom: 2rem;
@@ -863,8 +867,16 @@ video {
 
 @media (min-width: 1024px) {
 
-  .lg\:h-\[75vh\] {
-    height: 75vh;
+  .lg\:min-h-\[75vh\] {
+    min-height: 75vh;
+  }
+
+  .lg\:pt-28 {
+    padding-top: 7rem;
+  }
+
+  .lg\:pb-72 {
+    padding-bottom: 18rem;
   }
 }
 
