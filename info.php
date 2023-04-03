@@ -11,7 +11,7 @@ Template Name: Info
     
   <div class="pt-20 pb-28"> 
 
-    <div>
+    <div class="pb-8">
      <p class="label font-bold mb-4">Følg min fotokunst</p><!-- / -->
             <p><?php echo do_shortcode('[custom-facebook-feed num=1]'); ?></p>
   </div>
