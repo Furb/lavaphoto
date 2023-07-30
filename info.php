@@ -18,9 +18,9 @@ Template Name: Info
   <p class="label font-bold mb-4">Følg min fotokunst</p>
 
   <div class="flex flex-col space-y-4">
-       <a href="mailto:info@larsvandersen.com"><h2 class="underline underline-offset-8 hover:no-underline max-w-xs xl:max-w-sm">
+       <a href="https://www.instagram.com/lars_v_andersen/"><h2 class="underline underline-offset-8 hover:no-underline max-w-xs xl:max-w-sm">
         Instagram</h2></a>
-        <a href="mailto:info@larsvandersen.com"><h2 class="underline underline-offset-8 hover:no-underline max-w-xs xl:max-w-sm">
+        <a href="https://www.facebook.com/lavarockphoto"><h2 class="underline underline-offset-8 hover:no-underline max-w-xs xl:max-w-sm">
         Facebook</h2></a>
 
   </div><!-- /.flex flex-col space-y-4 -->
