@@ -42,7 +42,7 @@ Template Name: Shop
 
             <div class="flex flex-wrap flex-col mb-24 group justify-between break-inside-avoid-column">
 
-                <div class="shop_image w-full border-[0.875rem] border-black shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
+                <div class="shop_image w-full shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
                     <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
 
                 </div><!-- /.image -->
