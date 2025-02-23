@@ -26,7 +26,7 @@ Template Name: Shop
         array(
             'post_type' => 'prints',
             // This is the name of your post type - change this as required,
-            'posts_per_page' => 50 // This is the amount of posts per page you want to show,
+            'posts_per_page' => 100 // This is the amount of posts per page you want to show,
         )
     );
 
